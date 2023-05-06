@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  color: #006699;
+  text-shadow: 1px 1px #ddd;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+input[type="text"]:focus,
+button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#hint-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007fff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#hint-button:hover {
+  background-color: #005fa9;
+}
+
+.about-me {
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  background-color: #F3AAB9;
+  color: #FFF;
+  font-size: 24px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin-right: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.about-me h2 {
+  text-align: center;
+  color: #006699;
+  text-shadow: 1px 1px #ddd;
+}
+
+.about-me p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}

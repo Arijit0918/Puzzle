@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Treasure Hunt - Final Clue</title>
+    <link rel="stylesheet" href="clue3.css" />
+  </head>
+  <body>
+    <div class="header">
+		<h1>Treasure Hunt</h1>
+		<a href="about.html" class="about-me">About Me</a>
+	</div>
+
+    <div class="container">
+      <h2>Final Clue</h2>
+      <p>Since this is the last clue you won't get any hints. Try to solve it by yourself. Goodluck</p>
+      <br>
+      <p style="font-weight: bold;">Riddle me this contestant: What is it that no one wants to have, but no one wants to lose, either?</p>
+       <form>
+        <input type="text" id="answer" placeholder="Enter your answer here">   
+        <input type="button" class="button" value="Submit" onclick="checkAnswer(document.getElementById('answer').value,'ending.html')">
+      </form>
+      <div id="result"></div>
+      <p id="score">Score: 5</p>
+      
+    </div>
+    <script src="clue5.js"></script>
+  </body>
+</html>

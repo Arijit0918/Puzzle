@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Treasure Hunt</title>
+    <link rel="stylesheet" href="clue3.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Treasure Hunt</h1>
+      <a href="about.html" class="about-me">About Me</a>
+    </div>  
+<div class="container">
+    <div class="container">
+    <h1>Clue 1</h1>
+    <p>To start your journey, answer this question:</p>
+    <p>What is 1 + 1 ?</p>
+    <form>
+        <input type="text" id="answer" placeholder="Enter your answer here">
+        <input type="button" class="button" value="Submit" onclick="checkAnswer(document.getElementById('answer').value, '10')">
+      </form>
+      
+      <button id="hint-button" onclick="showHint('Hint text')">Hint</button>
+    <p id="result"></p>
+    <p id="score">Score: 10</p>
+    </div>
+    <script src="clue1.js"></script>
+  </body>
+</html>

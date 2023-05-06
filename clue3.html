@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Treasure Hunt - Clue 3</title>
+	<link rel="stylesheet" type="text/css" href="clue3.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Treasure Hunt</h1>
+		<a href="about.html" class="about-me">About Me</a>
+	</div>
+
+	<div class="container">
+		<h2>Clue 3</h2>
+		<p>You should probably get to know me.</p>
+		
+
+		<form>
+			<input type="text" id="answer" placeholder="Enter your answer here">   
+			<input type="button" class="button" value="Submit" onclick="checkAnswer(document.getElementById('answer').value, 'clue4.html')">
+		  </form>
+    <div id="result"></div>  
+		
+	<button id="hintButton">Hint</button>
+	<div id="hintSection"></div>		
+		
+
+		<div id="score">Score: 5</div>
+	</div>
+
+	<script src="clue3.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Treasure Hunt - Clue 4</title>
+    <link rel="stylesheet" href="clue3.css" />
+  </head>
+  <body>
+    <div class="header">
+		<h1>Treasure Hunt</h1>
+		<a href="about.html" class="about-me">About Me</a>
+	</div>
+
+    <div class="container">
+      <h2>Clue 4</h2>
+      <p>Today I feel like 50.6071, 165.9729</p>
+      <form>
+        <input type="text" id="answer" placeholder="Enter your answer here">   
+        <input type="button" class="button" value="Submit" onclick="checkAnswer(document.getElementById('answer').value,'deadEnd.html', 'clue5.html')">
+      </form>
+      <div id="result"></div>
+      <p id="score">Score: 5</p>
+      <button id="hintButton">Hint</button>
+      <div id="hintSection">
+        
+        
+      </div>
+    </div>
+    <script src="clue4.js"></script>
+  </body>
+</html>

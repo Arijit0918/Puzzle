@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+	background-color: #333;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.about-me {
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: #4CAF50;
+	transition: background-color 0.3s;
+}
+
+.about-me:hover {
+	background-color: #3E8E41;
+}
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-top: 0;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #hintSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #score {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  #hintButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #hintButton:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #hintSection p {
+    margin-right: 20px;
+  }
+  
